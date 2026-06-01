@@ -32,3 +32,5 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+require base_path('app/Modules/Students/Routes/web.php');
+require base_path('app/Modules/Courses/Routes/web.php');
